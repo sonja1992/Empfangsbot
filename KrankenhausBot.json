@@ -1,0 +1,68 @@
+{
+  "luis_schema_version": "1.3.0",
+  "name": "KrankenhausBot",
+  "desc": "",
+  "culture": "de",
+  "intents": [
+    {
+      "name": "None"
+    },
+    {
+      "name": "Arztsuche"
+    },
+    {
+      "name": "Bedanken"
+    },
+    {
+      "name": "Begrüßung"
+    },
+	{
+      "name": "Dingsuche"
+    },
+	{
+      "name": "Gebäudeinformation"
+    },
+    {
+      "name": "Patientensuche"
+    },
+	{
+      "name": "Personensuche"
+    },
+	{
+      "name": "Verabschiedung"
+    }
+  ],
+  "entities": [
+	{
+      "name": "Arzt"
+    },
+    {
+      "name": "Dingfüllwort"
+    },
+    {
+      "name": "Fachbereich"
+    },
+    {
+      "name": "Name"
+    },
+	{
+      "name": "Patient"
+    },
+	{
+      "name": "Person"
+    },
+	{
+      "name": "Personenfüllwort"
+    },
+	{
+      "name": "Stockwerk"
+    },
+	{
+      "name": "Titel"
+    },
+	{
+      "name": "Zimmer"
+    }
+]}
+
+
