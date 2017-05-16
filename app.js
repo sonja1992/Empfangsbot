@@ -36,7 +36,7 @@ server.post('/api/messages', connector.listen())
 
 /* ------Ende Region 2 ------------- */
 
-var model = 'https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/a785638d-da3d-4c51-970c-d848d945ebcb?subscription-key=318cb9fe69a549e0ac7529e7d0140b37&timezoneOffset=0.0&verbose=true&q='
+var model = 'https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/a785638d-da3d-4c51-970c-d848d945ebcb?subscription-key=a701ebae28be496f9a0500a669fa55ec&timezoneOffset=0&verbose=true&q='
 
 var recognizer = new builder.LuisRecognizer(model);
 bot.dialog('/', new builder.IntentDialog({ recognizers: [recognizer] })
